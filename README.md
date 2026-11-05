@@ -1,6 +1,5 @@
 # generalized-flows
 
-Claude Code로 FDE/AX 과제(고객사에 AI 에이전트나 자동화를 만들어 넣고 운영까지 넘기는 일)를 할 때 쓰는 작업 흐름, 문서 템플릿, 한국어 작성 설정입니다. 한 팀의 사내 하네스에서 회사, 고객사, 사내 도구, 개인 경로를 빼고 일반 이름으로 바꿨습니다.
 
 ## 구성
 
@@ -50,5 +49,3 @@ workflow 파일은 템플릿과 문서 위치를 `00_CLAUDE/` 기준 상대 경�
 ## 포함하지 않은 것
 
 - 스킬과 agent(`code-reviewer`, `pr-reviewer`, `teamreview`, `codex-review`, `review-html-generator` 등): workflow 파일이 이름으로 부르지만 이 repo에는 없습니다. 없는 단계는 건너뛰거나 직접 하면 됩니다.
-- HTML starter와 디자인 토큰
-- 사내 도구에 연결하는 스크립트(대화 기록 조회, 알럿 조사, Codex wrapper)
